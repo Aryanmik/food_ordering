@@ -1,5 +1,7 @@
 # food_ordering
 
+**Problem Statement**
+
 You need to build a food ordering system. There are going to be multiple restaurants.
 Example:
 1. Truffles
@@ -36,7 +38,7 @@ A user at a time can only place order from a restaurant.
 Each of these restaurant has processing power *P*. At any given point of time, any restaurant can run with processing power *(P<=N)*.
 After each order is processed, processing power is restored of restaurant.
 
-**UseCase:**
+**Acceptance Criteria:**
 1. Select item and add to cart.
 2. Place order.
     a. After placing order, processing power should get deducted.
